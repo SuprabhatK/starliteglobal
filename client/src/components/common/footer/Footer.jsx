@@ -1,6 +1,6 @@
 import { FaFacebookF, FaTwitter, FaYoutube, FaGoogle, FaMapMarkerAlt, FaEnvelope, FaClock, FaPhone, FaFax } from "react-icons/fa";
 import { logo, logowhite, slogonwhite } from '../../../assets';
-import './footer.scss';
+import './Footer.scss';
 import { Link } from "react-router-dom";
 
 export default function Footer() {
