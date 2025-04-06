@@ -1,2 +1,2 @@
-import Statssection from "./statssection";
+import Statssection from "./Statssection";
 export default Statssection;
