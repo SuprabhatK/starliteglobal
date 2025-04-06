@@ -1,0 +1,14 @@
+{
+  "name": "Starlite Global International Trading Limited",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run server --prefix server\"",
+    "build": "npm run build --prefix client",
+    "server": "nodemon index.js --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,117 @@
+.core-business-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 1rem;
+  
+    .core-container {
+      max-width: 1200px;
+      width: 100%;
+    }
+  
+    .core-business-header {
+      margin-bottom: 2rem;
+      text-align: center;
+  
+      h1 {
+        font-weight: 300;
+  
+        .highlight {
+          color: orange;
+          font-weight: 600;
+        }
+      }
+    }
+  
+    .core-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+  
+      li {
+        .core-tab-btn {
+          border: none;
+          background: #f2f2f2;
+          padding: 0.75rem 1.25rem;
+          cursor: pointer;
+          font-weight: 500;
+          transition: all 0.3s ease;
+  
+          &.active {
+            background-color: #ffa500;
+            color: #fff;
+          }
+  
+          &:hover {
+            background-color: #ffcc80;
+          }
+        }
+      }
+    }
+  
+    .tab-contents {
+      .tab-pane {
+        display: none;
+  
+        &.active {
+          display: block;
+        }
+  
+        .service-content {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 2rem;
+          align-items: flex-start;
+  
+          @media (max-width: 768px) {
+            flex-direction: column;
+          }
+  
+          .service-text {
+            flex: 1;
+          }
+  
+          .service-title {
+            margin: 1.5rem 0;
+            font-weight: 400;
+            color: #333;
+          }
+  
+          .sub-title {
+            font-weight: 600;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            padding-top: 25px;
+          }
+  
+          ul {
+            padding-left: 1rem;
+  
+            li {
+              margin-bottom: 0.5rem;
+              font-weight: 400;
+              color: #333;
+            }
+          }
+  
+          .service-image-wrapper {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+          }
+  
+          .service-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+  
