@@ -18,6 +18,7 @@ const Contactussection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    
     const payload = {
       name: form.form_name,
       phone: form.form_phone,
