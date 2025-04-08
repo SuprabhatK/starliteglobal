@@ -62,7 +62,7 @@ export default function Footer() {
                         <FaFax className="icon" /> Fax: 30113232
                     </p>                    <p>
                         <FaEnvelope className="icon" />
-                        <a href="mailto:info@starliteglobal.com">info@starliteglobal.com</a>
+                        <a href="mailto:info.starliteglobal@gmail.com">info.starliteglobal@gmail.com</a>
                     </p>
                     <p>
                         <FaClock className="icon" /> Timing 9:30 AM to 5:30 PM
