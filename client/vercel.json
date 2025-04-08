@@ -1,0 +1,30 @@
+{
+    "routes": [
+        {
+            "path": "/",
+            "element": "/",
+            "children": [
+                {
+              "path": "/",
+              "element": "/"
+                },
+                {
+              "path": "/about",
+              "element": ""
+                },
+                {
+              "path": "/services",
+              "element": "/"
+                },
+                {
+              "path": "/core-business",
+              "element": "/"
+                },
+                {
+              "path": "/contact",
+              "element": "/"
+                }
+            ]
+        }
+    ]
+}
